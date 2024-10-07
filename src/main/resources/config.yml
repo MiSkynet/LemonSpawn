@@ -1,0 +1,15 @@
+noPermission: "§cSorry, but you don't have permission to use this command"
+senderNoPlayer: "§cSorry, but you have to be a player to use this command"
+
+spawnSet: "§dYou have placed a new spawn at your current position"
+reload: "%lemonspawn% §dhas been reloaded"
+
+teleportMessage: "§dYou have been teleported to the spawn"
+noSpawnSet: "§cSorry, but there is currently no spawn set"
+
+teleportCooldownMessage: "§cYou already have a teleport running"
+
+teleportInMessage: "§dYou will be teleported in %time% seconds"
+
+teleportTime: 10
+teleportMessages: [1,2,3,4,5,10,20,30,60,120,360]

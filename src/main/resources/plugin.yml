@@ -3,3 +3,8 @@ version: '${project.version}'
 main: org.miskynet.lemonspawn.Main
 api-version: '1.21'
 authors: [MiSkynet]
+commands:
+  lemonspawn:
+    aliases:
+      - ls
+  spawn:

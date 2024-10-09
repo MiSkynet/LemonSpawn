@@ -18,7 +18,7 @@ public class lemonSpawnManager implements CommandExecutor {
             return true;
         }
 
-        switch (strings[0].toLowerCase()){
+        switch (strings[0].toLowerCase()) {
             case "reload":
                 if (!(commandSender.hasPermission("lemonspawn.reload"))) {
                     commandSender.sendMessage(methodes.getString("noPermission"));
@@ -26,6 +26,8 @@ public class lemonSpawnManager implements CommandExecutor {
                 }
 
                 spawnConfig.reload();
+                Main.getInstance().getConfig().options().copyDefaults();
+                Main.getInstance().saveDefaultConfig();
                 Main.getInstance().reloadConfig();
                 commandSender.sendMessage(methodes.getString("reload"));
                 break;

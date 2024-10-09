@@ -30,11 +30,8 @@ public class methodes {
     }
 
     public static String getString(String path) {
-
         if (Main.getInstance().getConfig().getString(path) != null) {
-            String string = Main.getInstance().getConfig().getString(path);
-            string = string.replace("%lemonspawn%", "§x§F§F§C§7§0§0LemonSpawn");
-            return string;
+            return Main.getInstance().getConfig().getString(path);
         }else {
             Bukkit.getLogger().severe(" ");
             Bukkit.getLogger().severe("An error occured while loading a string: " + path);

@@ -7,7 +7,7 @@ With my Minecraft plugin “LemonSpawn” you can set a spawn and teleport there
 ## Installation ☑️
 These are the instructions to download the plugin:
 1. Download the plugin [here](https://github.com/MiSkynet/LemonSpawn/releases/tag/Minecraft).
-2. Drag the `LemonSpawn.jar` file you just downloaded into your server's `plugins` folder.
+2. Drag the `LemonSpawn-1.0.0.jar` file you just downloaded into your server's `plugins` folder.
 3. Restart your server. When the plugin has loaded, a message should appear in the console.
 
 - - - 
@@ -30,10 +30,10 @@ plugin like `LuckPerms`.
 
 This is a list of all the permissions that exist in my plugin LemonSpawn:
 
-Permission            | What the permission does
-                     -|-
-`lemonspawn.reload`   | Allows someone to reload the plugin
-`lemonspawn.spawn`    | Allows someone to teleport to the spawn
+Permission  | What the permission does
+ -|-
+`lemonspawn.reload` | Allows someone to reload the plugin
+`lemonspawn.spawn` | Allows someone to teleport to the spawn
 `lemonspawn.setspawn` | Allows someone to set the spawn
 
 - - - 
